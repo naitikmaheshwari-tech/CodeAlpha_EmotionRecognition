@@ -1,0 +1,33 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit local config & cache
+.streamlit/secrets.toml
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Audio temp files and uploads
+temp_audio.*
+*.tmp
+recordings/
+uploads/
+*.wav
+*.mp3
+!demo_samples/*.wav
+
+# IDE files
+.vscode/
+.idea/
+*.swp
